@@ -36,3 +36,23 @@ body {
 
    }
  }
+
+#content {
+  width: 97%;
+  margin: 0 auto;
+
+  .works {
+
+
+    .proj {
+      margin: 0 auto;
+      width: 90%;
+      height: 500px;
+      border: solid;
+      border-radius: 5px;
+      padding-top: 100px;
+
+    }
+
+  }
+}

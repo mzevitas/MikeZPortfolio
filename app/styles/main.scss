@@ -6,20 +6,19 @@
 
  // Custom Styles
 body {
-  background: #fafafa;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color: #333;
+
+  font-family: 'Advent Pro', sans-serif;
+//  color: #333;
   width: 100%;
 }
  #header {
    width: 100%;
    margin: 0 auto;
+   height: 800px;
+   background: hsla(0,0%,22%,0.4);
+   color: white;
+   background-image: url(http://f.cl.ly/items/2L0X1r2T2C0m1G143X2h/mikes%20header.png);
 
-
-
-
-   .tophead{
-    height: 80px;
 
      h1 {
       font-size: 45px;
@@ -38,9 +37,27 @@ body {
    .sub-nav {
      float: right;
      display: block;
+     margin-right: 30px;
+     margin-top: -50px;
 
+     a {
+       color: white;
+       text-decoration: none;
+       margin-left: 15px;
+       font-size: 28px;
+       &:hover {
+         color: hsla(360,100%,40%,1);
+       }
    }
+     img {
+       width: 35px;
+       margin-left: -5px;
+       }
+
+
  }
+
+
 
 
 
@@ -48,6 +65,12 @@ body {
   width: 97%;
   margin: 0 auto;
 
+
+  .about {
+    width: 75%;
+    text-align: center;
+    margin-left: 12%;
+  }
 
   .works {
 
@@ -64,5 +87,9 @@ body {
 
   }
 }
+
+ [data-magellan-expedition-clone] {
+   display: none;
+ }
 
 

@@ -17,21 +17,21 @@ body {
    height: 800px;
    background: hsla(0,0%,22%,0.4);
    color: white;
-   background-image: url(http://f.cl.ly/items/2L0X1r2T2C0m1G143X2h/mikes%20header.png);
+   background-image: url(http://f.cl.ly/items/3l120C0G0K1107113Z3u/mikes%20header-1.png);
 
 
-     h1 {
-      font-size: 45px;
-       margin-left: 4%;
-       display: inline;
-       margin-bottom: 0;
-     }
-     h3 {
-       font-size: 21px;
-       margin-left: 6%;
+     .headlogo {
+       width: 48%;
+       margin-left: 14px;
        margin-top: -1px;
-       display: inline;
 
+       h3 {
+         font-size: 21px;
+         margin-left: 6%;
+         margin-top: -1px;
+         display: inline;
+
+       }
      }
 }
    .sub-nav {
@@ -45,14 +45,17 @@ body {
        text-decoration: none;
        margin-left: 15px;
        font-size: 28px;
+       font-weight: 700;
        &:hover {
-         color: hsla(360,100%,40%,1);
+         color: hsla(349,100%,46%,1);
        }
    }
      img {
        width: 35px;
        margin-left: -5px;
-       }
+       filter: invert(100%);
+
+     }
 
 
  }
@@ -62,22 +65,50 @@ body {
 
 
 #content {
-  width: 97%;
-  margin: 0 auto;
+  width: 100%;
 
+  .aboutback {
+    height: 100%;
+    background-image: url(http://www.pixeden.com/media/k2/galleries/165/003-subtle-light-pattern-background-texture-vol5.jpg);
+    margin-top: -88px;
+
+  }
 
   .about {
+
     width: 75%;
     text-align: center;
     margin-left: 12%;
+
+
+    h3{
+      font-size: 40px;
+      padding-top: 80px;
+    }
+
+    p {
+      font-size: 20px;
+      padding-bottom: 100px;
+    }
   }
 
   .works {
+    background-image: url(http://104.131.82.19/wp-content/uploads/2013/03/barrel.jpg);
+    margin-top: -41px;
+
+    h3 {
+      font-size: 40px;
+      text-align: center;
+      padding-top: 45px;
+
+
+    }
 
 
     .proj {
+      background-color: red;
       margin: 0 auto;
-      width: 90%;
+      width: 80%;
       height: 500px;
       border: solid;
       border-radius: 5px;
@@ -90,6 +121,7 @@ body {
 
  [data-magellan-expedition-clone] {
    display: none;
+
  }
 
 

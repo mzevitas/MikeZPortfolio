@@ -102,7 +102,7 @@ body {
   }
 
   .works {
-    background-image: url(http://cdns2.freepik.com/free-photo/wood-barrels-wooden-wine-whisky-container_121-54207.jpg);
+    background-image: url(http://st.depositphotos.com/1655166/1945/i/950/depositphotos_19457149-Textile-background.Old-rustic-homespun-cloth-as-background.jpg);
     margin-top: -41px;
 
     h3 {
@@ -131,6 +131,8 @@ body {
     img {
       margin-left: 20px;
       display: inline;
+      border: solid 1px;
+      box-shadow: 3.5px 2px 2px 2px hsla(0,0%,22%,0.5);;
     }
 
     p {
@@ -159,7 +161,8 @@ body {
 
   .tools {
     text-align: center;
-    background-color: #0078a0;
+    background-image: url(http://www.pixeden.com/media/k2/galleries/165/003-subtle-light-pattern-background-texture-vol5.jpg);
+    margin-top: -43px;
 
     h3 {
       font-size: 40px;
@@ -170,24 +173,45 @@ body {
       font-size: 20px;
       padding-bottom: 100px;
     }
+
+    a{
+      font-weight: 700;
+      font-size: 24px;
+      color: darkred;
+    }
   }
 
 
     .contact {
       text-align: center;
-      background-color: red;
+      background-image: url(http://f.cl.ly/items/19050C230r3U2P3r3M3r/newbarrel.png);
+      margin-top: -84px;
+      height: 350px;
 
-      h3 {
-        font-size: 40px;
-        text-align: center;
-        padding-top: 45px;
+        h3 {
+          font-size: 40px;
+          text-align: center;
+          padding-top: 45px;
+
+        }
+        li {
+          font-size: 25px;
+          font-weight: 700;
+          list-style-type: none;
+        a {
+          text-decoration: none;
+          color: black;
+          &:hover {
+            color:hsla(349,100%,46%,1);
+          }
+        }
+        }
       }
-      p{
-        font-size: 20px;
-        padding-bottom: 100px;
-      }
-    }
+
+
   }
+
+
 
 
  [data-magellan-expedition-clone] {

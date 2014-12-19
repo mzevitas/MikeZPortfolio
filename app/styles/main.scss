@@ -18,12 +18,16 @@ body {
    background: hsla(0,0%,22%,0.4);
    color: white;
    background-image: url(http://f.cl.ly/items/3l120C0G0K1107113Z3u/mikes%20header-1.png);
+   background-repeat:no-repeat;
+   background-size:contain;
+   background-position:center;
 
 
      .headlogo {
        width: 48%;
        margin-left: 14px;
        margin-top: -1px;
+
 
        h3 {
          font-size: 21px;

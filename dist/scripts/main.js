@@ -11,3 +11,9 @@ $(document).foundation({
 
 
 //$("#header").delay(1000).animate({"opacity": "1"}, 3000);
+
+
+var isRetina = (
+window.devicePixelRatio > 1 ||
+(window.matchMedia && window.matchMedia("(-webkit-min-device-pixel-ratio: 1.5),(-moz-min-device-pixel-ratio: 1.5),(min-device-pixel-ratio: 1.5)").matches)
+);

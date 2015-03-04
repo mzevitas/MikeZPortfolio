@@ -21,7 +21,7 @@ body {
    height: 750px;
    background: hsla(0,0%,22%,0.4);
    color: white;
-   background-image: url(https://s3.amazonaws.com/uploads.hipchat.com/31349/1239511/CDsYIPe9JAD3OHA/mikes%20header1400.png);
+   background-image: url(http://f.cl.ly/items/3z3Z141K0y2f1p1l2726/mikes%20header%20ful.png);
    background-repeat:no-repeat;
    background-size: cover;
    background-position: center center;
@@ -248,13 +248,25 @@ body {
 
  @media screen and (max-width: 1132px) {
 
-   #content .works p {
-
-     width: 370px;
+   #header{
+     background-image: url(http://f.cl.ly/items/3w1c1T2332312S1h0v2b/mikes%20header%201132break.png);
    }
 
 
+   #content .works p {
+     width: 370px;
+   }
  }
+
+ @media screen and (max-width: 1000px) {
+
+
+   #header {
+     background-image: url(http://f.cl.ly/items/2r2X1G2E0w0o1n2g3f2p/mikes%20header%201000%20break.png);
+   }
+ }
+
+
 
  @media screen and (max-width: 900px) {
 

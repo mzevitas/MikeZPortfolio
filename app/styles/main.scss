@@ -318,7 +318,21 @@ body {
  }
 
  @media screen and (max-width: 600px) {
-   #header .headlogo{
+   #header .headlogo {
      width: 90%;
+   }
+
+   #header {
+     background-image: url(http://f.cl.ly/items/3D090c3L3F1J2S2M051q/mikes%20header%20600%20break.png);
+   }
+
+
+
+ }
+
+
+ @media screen and (max-width: 440px) {
+   #header {
+
    }
  }

@@ -41,7 +41,7 @@ body {
      float: right;
      display: block;
      margin-right: 3%;
-     margin-top: -50px;
+     margin-top: -45px;
 
      a {
        color: white;
@@ -51,6 +51,10 @@ body {
        font-weight: 700;
        &:hover {
          color: hsla(349,100%,46%,1);
+         webkit-transform: scale(1.4);
+         -ms-transform: scale(1.4);
+         transform: scale(1.4);
+         transition: 1s ease;
        }
    }
      .GHLOGO {
@@ -136,7 +140,7 @@ body {
       display: inline;
       border: solid 1px;
       box-shadow: 3.5px 2px 2px 2px hsla(0,0%,22%,0.5);
-      height: 55%;
+      //height: 55%;
       width: 34%;
     }
 
@@ -217,12 +221,20 @@ body {
   }
 
 
+ [data-magellan-expedition] {
+   background-color: hsla(0,0%,22%,0.6);
+   margin-bottom: 10px;
+   height: 80px;
+   text-decoration: none;
 
+
+ }
 
  [data-magellan-expedition-clone] {
    display: none;
 
  }
+
 
 
  // All Media Queries

@@ -10,7 +10,7 @@ body {
 
   font-family: 'Advent Pro', sans-serif;
 //  color: #333;
-  width: 98%;
+//  width: 98%;
   margin: 0 auto;
 }
 
@@ -21,8 +21,8 @@ body {
    height: 750px;
    background: hsla(0,0%,22%,0.4);
    color: white;
-   background-image: url(http://f.cl.ly/items/3z3Z141K0y2f1p1l2726/mikes%20header%20ful.png);
-   background-repeat:no-repeat;
+   background-image: url(../images/mikes%20header%20ful.png);
+   background-repeat: no-repeat;
    background-size: cover;
    background-position: center center;
 
@@ -50,7 +50,7 @@ body {
        font-size: 1.4em;
        font-weight: 700;
        &:hover {
-         color: hsla(349,100%,46%,1);
+         color:#dcad55;
          webkit-transform: scale(1.4);
          -ms-transform: scale(1.4);
          transform: scale(1.4);
@@ -142,6 +142,7 @@ body {
       box-shadow: 3.5px 2px 2px 2px hsla(0,0%,22%,0.5);
       //height: 55%;
       width: 34%;
+      height: 209px;
     }
 
     p {
@@ -160,7 +161,7 @@ body {
       font-size: 1.2em;
       font-weight: 700;
       &:hover {
-        color: hsla(349,100%,46%,1);
+        color: #dcad55;
       }
     }
 
@@ -261,7 +262,7 @@ body {
  @media screen and (max-width: 1132px) {
 
    #header{
-     background-image: url(http://f.cl.ly/items/3w1c1T2332312S1h0v2b/mikes%20header%201132break.png);
+     background-image: url(../images/mikes%20header%201132break.png);
    }
 
 
@@ -274,7 +275,7 @@ body {
 
 
    #header {
-     background-image: url(http://f.cl.ly/items/2r2X1G2E0w0o1n2g3f2p/mikes%20header%201000%20break.png);
+     background-image: url(../images/mikes%20header%201000%20break.png);
    }
  }
 
@@ -335,7 +336,7 @@ body {
    }
 
    #header {
-     background-image: url(http://f.cl.ly/items/3D090c3L3F1J2S2M051q/mikes%20header%20600%20break.png);
+     background-image: url(../images/mikes%20header%20600%20break.png);
    }
 
 
@@ -346,5 +347,22 @@ body {
  @media screen and (max-width: 440px) {
    #header {
 
+
    }
+
+   .works{
+    .proj {
+      height: 415px;
+    }
+   }
+
+
+   [data-magellan-expedition] {
+   background-color: hsla(0,0%,22%,0.6);
+   margin-bottom: 10px;
+   height: 50px;
+   text-decoration: none;
+
+
+ }
  }

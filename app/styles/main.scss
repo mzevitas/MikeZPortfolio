@@ -144,7 +144,7 @@ body {
       box-shadow: 3.5px 2px 2px 2px hsla(0,0%,22%,0.5);
       //height: 55%;
       width: 34%;
-      height: 250px;
+      height: 210px;
     }
 
     p {
@@ -348,6 +348,9 @@ body {
 
  @media screen and (max-width: 440px) {
    #header {
+     background-image: url(../images/mikes%20header%20mobile.png);
+     background-position: center;
+     height: 500px;
 
 
    }
